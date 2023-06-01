@@ -1,0 +1,101 @@
+*{
+    margin: 0px auto; padding: 0px;
+}
+div#contenedor{
+    margin: 0px auto;padding: 0px;
+    width: 1170px; height: 1575px;
+}
+body{
+    background-color: rgb(183, 183, 183);
+}
+div#contenedor div#encabezado{
+    border: 3px solid #ff8400;
+    width: 1160px; height: 100px;
+    margin-top: 5px; margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: #333333;
+    margin-left: 3px;
+}
+div#encabezado div#logo img{
+    width: 100%; height: 100%;
+    float: left;
+
+    padding-left: 10px;
+}
+div#encabezado div#zonalogo{
+
+    padding: 20px; 
+    padding-bottom: 15px;
+    text-align: center; 
+    width: 325px; height: 50px;
+    float: left;
+    
+}
+div#zonalogo h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 36px; 
+  color: #ff8400; 
+  text-transform: uppercase; 
+  margin: 0px auto;
+  padding-top: 7px;
+}
+
+div#encabezado div#logo{
+    width: 80px; height: 80px;
+    float: left;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+
+div#encabezado div#menu{
+    border: 3px solid #ff8400;
+    width: auto; height: auto;
+    float: right;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+div#menu nav a{
+    width: 640px; height: 55px;
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+} 
+div#menu nav li{
+        float:left;
+        width:84px; height: 25px;
+        padding:5px 10px;
+        background-color:#333333;
+        border:1px solid #333333;
+        text-align:center;
+        color: #ff8400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 10px;
+
+}
+div#menu nav li:hover{
+        background-color:#ff8400;
+        color:#333333;
+}
+div#menu nav li ul li{
+    display: none;
+    width:84px; height: 25px;
+    background-color:#333333;
+    border:1px solid #333333;
+    text-align:center;
+    color: #ff8400;
+    top: 20px;
+    left: -13px;
+    position: relative;
+}
+div#menu nav ul li ul li{
+
+    border: #ff8400 3px solid;
+}
+div#menu nav li:hover ul li{
+    display: block; 
+    
+}
+p.limpiar {clear: both;}

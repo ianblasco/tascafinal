@@ -1,0 +1,155 @@
+*{
+    margin: 0 auto;padding: 0;
+}
+div#contacto{
+    border: 1px black solid;
+    width: 1168px;
+    height: auto;
+}
+div#izq{
+    float: left;
+    width: 750px;
+    height: auto;
+    border: 1px solid rgb(255, 0, 0);
+}
+div.titulocontacto{
+    border: 1px black solid;
+    margin-left: 15px;
+    width: 700px;
+}
+div.titulocontacto h1{
+    font-size: 36px;
+    color: #ff8400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 15px;
+    text-shadow: -1px -1px 1px #333333,
+                     1px -1px 1px #333333,
+                     -1px 1px 1px #333333,
+                     1px 1px 1px #333333;
+}
+div.titulocontacto p{
+    font-size: 14px;
+    color: #333333;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div.campo1{
+    float: left;
+    margin: 15px;
+    width: 700px;
+    height: auto;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+div.usuario{
+    float: left;
+}
+textarea#usuario{
+    float: left;
+}
+div.campo2{
+    margin: 15px;
+    width: 700px;
+    height: auto;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    float: left;
+}
+div.email{
+    float: left;
+}
+textarea#email{
+    float: left;
+}
+
+div.campo3{
+    margin: 15px;
+    width: 700px;
+    height: auto;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    float: left;
+}
+div.url{
+    float: left;
+}
+textarea#url{
+    float: left;
+}
+
+div.campo4{
+    margin: 15px;
+    width: 700px;
+    height: auto;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    float: left;
+}
+textarea#url{
+    float: left;
+}
+div.botonenviar{
+    margin: 15px;
+    margin-left: 15px;
+    float: left;
+    background-color: #333333;
+    width: 75px;
+    height: auto; text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: #ff8400 3px solid;
+    color: #ff8400;
+    margin-bottom: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div.botonenviar:hover{
+    background-color: #ff8400;
+    color: #333333;
+}
+/*============================================================================*/
+div#der{
+    float: right;
+    width: 410px;
+    height: 700px;
+    border: 1px solid rgb(0, 0, 255);
+}
+div.datoscontacto h1{
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ff8400;
+    text-shadow: -1px -1px 1px #333333,
+                     1px -1px 1px #333333,
+                     -1px 1px 1px #333333,
+                     1px 1px 1px #333333;
+    margin-bottom: 8px;
+}
+div.datoscontacto h3{
+    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #333333;
+    margin-bottom: 8px;
+}
+div.datoscontacto h5{
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #333333;
+    margin-bottom: 8px;
+}
+div.datoscontacto p{
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #333333;
+    margin-top: 10px;
+}
+div.datoscontacto a{
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ff8400;
+    margin-top: 10px;
+    text-shadow: -0.5px -0.5px 0.5px #000000,
+    0.5px -0.5px 0.5px #000000,
+                     -0.5px 0.5px 0.5px #000000,
+                     0.5px 0.5px 0.5px #000000;
+    text-decoration: none;
+}
+

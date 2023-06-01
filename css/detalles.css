@@ -1,0 +1,24 @@
+*{
+    margin: 0px auto;padding: 0px;
+}
+.container {
+    display: flex;
+}
+
+.detallesimg {
+    width: 570px;
+    height: 770px;
+}
+.detalles {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.detalles h1{
+    font-size: 36px; 
+}
+.detalles p.desc{
+    font-size: 14px;
+}
+.detalles p.text{
+    font-size: 22px;
+}
