@@ -5,6 +5,8 @@ div#contacto{
     border: 1px black solid;
     width: 1168px;
     height: auto;
+    position: relative;
+    top: 20px; 
 }
 div#izq{
     float: left;
@@ -110,10 +112,16 @@ div.botonenviar:hover{
 div#der{
     float: right;
     width: 410px;
-    height: 700px;
-    border: 1px solid rgb(0, 0, 255);
+    height: 655px;
+    border: 3px solid #ff8400;
+    background-color: #333333;
+    border-radius: 7px;
+}
+div.datoscontacto *{
+    padding-left: 10px;
 }
 div.datoscontacto h1{
+    padding-top: 10px;
     font-size: 22px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #ff8400;
@@ -126,20 +134,20 @@ div.datoscontacto h1{
 div.datoscontacto h3{
     font-size: 17px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #333333;
+    color: rgb(183, 183, 183);
     margin-bottom: 8px;
 }
 div.datoscontacto h5{
     font-size: 14px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #333333;
+    color: rgb(183, 183, 183);
     margin-bottom: 8px;
 }
 div.datoscontacto p{
     font-size: 14px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #333333;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 div.datoscontacto a{
     font-size: 14px;
@@ -152,4 +160,19 @@ div.datoscontacto a{
                      0.5px 0.5px 0.5px #000000;
     text-decoration: none;
 }
-
+div.donde h1{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ff8400;
+    text-shadow: -1px -1px 1px #333333,
+                     1px -1px 1px #333333,
+                     -1px 1px 1px #333333,
+                     1px 1px 1px #333333;
+    margin-bottom: 8px;
+}
+div.donde div#map iframe{
+    width: 410px;
+    height: 410px;
+}
